@@ -41,7 +41,7 @@
                         update: { method: 'PUT'}
                     }),
                     clientResource: defineResource(apiVer + "/clients/:clientId/:anotherresource", {clientId: '@clientId', anotherresource: '@anotherresource'}, {
-                        getAllClients: {method: 'GET', params: {limit: 2500}},
+                        getAllClients: {method: 'GET', params: {limit: 15000}},
                         getClientClosureReasons: {method: 'GET', params: {}},
                         getAllClientDocuments: {method: 'GET', params: {}, isArray: true},
                         update: { method: 'PUT'}
